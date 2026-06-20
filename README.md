@@ -55,7 +55,21 @@ python generate_existing_ppt_demo.py
 - `rednote-existing-demo-output.srt` — 同步字幕
 - `rednote-existing-demo-cover.png` — 视频封面
 
-### 3. 启动 API 服务
+### 4. 完整流程 Demo：先看静态 PPT，再看 Skill 转换，最后看生成结果
+
+```bash
+source .venv/bin/activate
+python generate_full_process_demo.py
+```
+
+输出：
+
+- `rednote-full-process-demo-output.mp4` — 约 3 分 52 秒完整流程视频
+  - 前 24 秒：静态展示原始 PPT 的 8 页内容
+  - 中间 4 秒：过渡页说明正在使用 RedNote Studio Skill 转换
+  - 后 3 分 24 秒：最终生成的中文语音讲解视频
+
+### 5. 启动 API 服务
 
 ```bash
 cd backend
@@ -99,6 +113,7 @@ redskill/
 ├── generate_redskill_video.py
 ├── generate_redskill_video_cli.py
 ├── generate_existing_ppt_demo.py
+├── generate_full_process_demo.py
 ├── generate_redskill_poster.py
 ├── redskill_script_zh.txt
 ├── demo_script_zh.txt
@@ -111,6 +126,7 @@ redskill/
 ├── rednote-existing-demo-output.mp4
 ├── rednote-existing-demo-output.srt
 ├── rednote-existing-demo-cover.png
+├── rednote-full-process-demo-output.mp4
 └── redskill-submission.md
 ```
 
@@ -120,6 +136,7 @@ redskill/
 
 - **参赛视频**：`redskill-output-output.mp4`
 - **已有 PPT 讲解 Demo**：`rednote-existing-demo-output.mp4`
+- **完整流程 Demo（静态 PPT + Skill 转换 + 生成结果）**：`rednote-full-process-demo-output.mp4`
 - **参赛 PPT**：`redskill-pitchflow-deck.pptx`
 - **小红书封面**：`redskill-poster.png`
 - **投稿文案**：`redskill-submission.md`

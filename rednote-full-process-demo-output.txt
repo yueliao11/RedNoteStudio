@@ -1,0 +1,3 @@
+file '/Volumes/extdisk/project/web3/pharos/pharos-pitchflow/redskill/data/outputs/full_process_temp/static.mp4'
+file '/Volumes/extdisk/project/web3/pharos/pharos-pitchflow/redskill/data/outputs/full_process_temp/transition.mp4'
+file '/Volumes/extdisk/project/web3/pharos/pharos-pitchflow/redskill/rednote-existing-demo-output.mp4'

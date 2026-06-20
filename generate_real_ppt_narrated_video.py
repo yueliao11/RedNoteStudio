@@ -121,8 +121,7 @@ def _synthesize_with_cli(narrations: list[str], voice: str, work_dir: Path) -> l
     return audio_files
 
 
-def _build_video(slide_images: list[Path], audio_files: list[Path], durations: list[float], output_path: Path) -> Path:
-    work_dir = output_path.parent
+def _build_video(slide_images: list[Path], audio_files: list[Path], durations: list[float], output_path: Path, work_dir: Path) -> Path:
     video_only = work_dir / "video_only_real.mp4"
     audio_list = work_dir / "audio_list_real.txt"
     audio_only = work_dir / "audio_only_real.aac"
@@ -235,7 +234,7 @@ def main():
         durations = [info["duration_seconds"] for info in audio_infos]
 
         print("[3/3] Building video with real PPT slides as background...")
-        _build_video(slide_images, audio_paths, durations, final_output)
+        _build_video(slide_images, audio_paths, durations, final_output, temp_dir)
 
         # Generate SRT subtitle.
         srt_path = PPT_DIR / "rednote-real-ppt-narrated-output.srt"

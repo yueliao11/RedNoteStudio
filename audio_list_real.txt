@@ -1,8 +1,0 @@
-file '/private/var/folders/th/gbmg_7xx0lq5ghcp3q200_ym0000gn/T/rednote_real_ppt_hbtnswql/slide_000.mp3'
-file '/private/var/folders/th/gbmg_7xx0lq5ghcp3q200_ym0000gn/T/rednote_real_ppt_hbtnswql/slide_001.mp3'
-file '/private/var/folders/th/gbmg_7xx0lq5ghcp3q200_ym0000gn/T/rednote_real_ppt_hbtnswql/slide_002.mp3'
-file '/private/var/folders/th/gbmg_7xx0lq5ghcp3q200_ym0000gn/T/rednote_real_ppt_hbtnswql/slide_003.mp3'
-file '/private/var/folders/th/gbmg_7xx0lq5ghcp3q200_ym0000gn/T/rednote_real_ppt_hbtnswql/slide_004.mp3'
-file '/private/var/folders/th/gbmg_7xx0lq5ghcp3q200_ym0000gn/T/rednote_real_ppt_hbtnswql/slide_005.mp3'
-file '/private/var/folders/th/gbmg_7xx0lq5ghcp3q200_ym0000gn/T/rednote_real_ppt_hbtnswql/slide_006.mp3'
-file '/private/var/folders/th/gbmg_7xx0lq5ghcp3q200_ym0000gn/T/rednote_real_ppt_hbtnswql/slide_007.mp3'

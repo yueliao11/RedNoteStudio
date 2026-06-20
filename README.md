@@ -55,15 +55,29 @@ python generate_existing_ppt_demo.py
 - `rednote-existing-demo-output.srt` — 同步字幕
 - `rednote-existing-demo-cover.png` — 视频封面
 
-### 4. 完整流程 Demo：先看静态 PPT，再看 Skill 转换，最后看生成结果
+### 4. 真实 PPT 页面 + 中文语音讲解视频
+
+直接用原始 PPT 页面作为背景，一页一页配上中文语音讲解：
+
+```bash
+source .venv/bin/activate
+python generate_real_ppt_narrated_video.py
+```
+
+> 需要系统已安装 `soffice`（LibreOffice）和 `pdftoppm`。
+> macOS 可通过 `brew install --cask libreoffice` 安装。
+
+输出：
+
+- `rednote-real-ppt-narrated-output.mp4` — 约 3 分 24 秒讲解视频
+- `rednote-real-ppt-narrated-output.srt` — 同步中文字幕
+
+### 5. 完整流程 Demo：先看静态 PPT，再看 Skill 转换，最后看生成结果
 
 ```bash
 source .venv/bin/activate
 python generate_full_process_demo.py
 ```
-
-> 需要系统已安装 `soffice`（LibreOffice）和 `pdftoppm`，用于真实导出原始 PPT 页面。
-> macOS 可通过 `brew install --cask libreoffice` 安装。
 
 输出：
 
@@ -117,6 +131,7 @@ redskill/
 ├── generate_redskill_video_cli.py
 ├── generate_existing_ppt_demo.py
 ├── generate_full_process_demo.py
+├── generate_real_ppt_narrated_video.py
 ├── generate_redskill_poster.py
 ├── redskill_script_zh.txt
 ├── demo_script_zh.txt
@@ -138,6 +153,7 @@ redskill/
 ## REDSkill 大赏参赛材料
 
 - **参赛视频**：`redskill-output-output.mp4`
+- **真实 PPT 语音讲解视频**：`rednote-real-ppt-narrated-output.mp4`
 - **已有 PPT 讲解 Demo**：`rednote-existing-demo-output.mp4`
 - **完整流程 Demo（静态 PPT + Skill 转换 + 生成结果）**：`rednote-full-process-demo-output.mp4`
 - **参赛 PPT**：`redskill-pitchflow-deck.pptx`

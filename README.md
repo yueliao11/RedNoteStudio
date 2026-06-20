@@ -40,6 +40,21 @@ python generate_redskill_poster.py
 - `redskill-output-cover.png` — 视频封面
 - `redskill-poster.png` — 小红书 3:4 封面海报
 
+### 3. 用 Skill 讲解已有 PPT
+
+仓库里已有一份参赛 PPT `RedNote Studio - 小红书 AI 视频笔记生成 Skill.pptx`，可以用 Skill 自己讲解自己：
+
+```bash
+source .venv/bin/activate
+python generate_existing_ppt_demo.py
+```
+
+输出：
+
+- `rednote-existing-demo-output.mp4` — 约 3 分 24 秒中文语音讲解视频
+- `rednote-existing-demo-output.srt` — 同步字幕
+- `rednote-existing-demo-cover.png` — 视频封面
+
 ### 3. 启动 API 服务
 
 ```bash
@@ -83,13 +98,19 @@ redskill/
 ├── generate_redskill_ppt.py
 ├── generate_redskill_video.py
 ├── generate_redskill_video_cli.py
+├── generate_existing_ppt_demo.py
 ├── generate_redskill_poster.py
 ├── redskill_script_zh.txt
+├── demo_script_zh.txt
+├── RedNote Studio - 小红书 AI 视频笔记生成 Skill.pptx
 ├── redskill-pitchflow-deck.pptx
 ├── redskill-output-output.mp4
 ├── redskill-output-output.srt
 ├── redskill-output-cover.png
 ├── redskill-poster.png
+├── rednote-existing-demo-output.mp4
+├── rednote-existing-demo-output.srt
+├── rednote-existing-demo-cover.png
 └── redskill-submission.md
 ```
 
@@ -98,6 +119,7 @@ redskill/
 ## REDSkill 大赏参赛材料
 
 - **参赛视频**：`redskill-output-output.mp4`
+- **已有 PPT 讲解 Demo**：`rednote-existing-demo-output.mp4`
 - **参赛 PPT**：`redskill-pitchflow-deck.pptx`
 - **小红书封面**：`redskill-poster.png`
 - **投稿文案**：`redskill-submission.md`

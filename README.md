@@ -114,6 +114,8 @@ curl -X POST http://localhost:8000/skill/generate \
 ```
 redskill/
 ├── README.md
+├── SKILL.md
+├── RED_SKILL_NOTES.md
 ├── backend/
 │   ├── requirements.txt
 │   └── app/
@@ -159,6 +161,26 @@ redskill/
 - **参赛 PPT**：`redskill-pitchflow-deck.pptx`
 - **小红书封面**：`redskill-poster.png`
 - **投稿文案**：`redskill-submission.md`
+- **Skill 上传文件**：`SKILL.md`
+- **发布笔记文案**：`RED_SKILL_NOTES.md`
+
+---
+
+## 参加 REDSkill 大赏
+
+### 安装口令
+
+复制以下口令发送给你的 AI 助手（Claude Code / Cursor 等），即可一键安装 RedNote Studio Skill：
+
+```text
+Install RedNote Studio Skill from https://github.com/yueliao11/RedNoteStudio and run python generate_real_ppt_narrated_video.py to turn any PPTX into a Chinese narrated Xiaohongshu video.
+```
+
+### 发布笔记标题
+
+**我把 PPT 丢给 AI，它自动讲成了小红书视频？**
+
+正文、标签和挂载方式详见 `RED_SKILL_NOTES.md`。
 
 ---
 

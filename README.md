@@ -62,10 +62,13 @@ source .venv/bin/activate
 python generate_full_process_demo.py
 ```
 
+> 需要系统已安装 `soffice`（LibreOffice）和 `pdftoppm`，用于真实导出原始 PPT 页面。
+> macOS 可通过 `brew install --cask libreoffice` 安装。
+
 输出：
 
 - `rednote-full-process-demo-output.mp4` — 约 3 分 52 秒完整流程视频
-  - 前 24 秒：静态展示原始 PPT 的 8 页内容
+  - 前 24 秒：用 LibreOffice 真实导出并静态展示原始 PPT 的 8 页内容
   - 中间 4 秒：过渡页说明正在使用 RedNote Studio Skill 转换
   - 后 3 分 24 秒：最终生成的中文语音讲解视频
 
